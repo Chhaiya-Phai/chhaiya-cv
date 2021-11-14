@@ -419,6 +419,7 @@ html{
 
     footer .footer .infomation button{
         margin-bottom: 2rem;
+        width: 44%;
     }
 
     .end{
@@ -426,5 +427,54 @@ html{
         font-size: .8rem;
     }
 
+    .home .card a{
+        text-decoration: none;
+    }
+    /* end style home */
+
+    .container{
+        display: block;
+    }
+
+    .container .navbar-left{
+        text-align: center;
+        margin: auto;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .container .navbar-left h1{
+        font-size: 2rem;
+    }
+
+    .container .navbar-left p{
+        width: 100%;
+        text-align: start;
+    }
+
+    .container .navbar-left button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin: auto;
+    }
+
+    .container .navbar-right{
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    /* end style about */
+    .my-container .card-container{
+        display: block;
+        width: 70%;
+        padding-bottom: 5rem;
+    }
+
+    .form-container{
+        width: 80%;
+        margin-bottom: 5rem;
+    }
 
 }
