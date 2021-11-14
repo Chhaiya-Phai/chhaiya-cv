@@ -1,3 +1,430 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 1.3rem;
+}
+
+.header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: blue;
+    color: white;
+    height: 1.5rem;
+    font-family: 'Stint Ultra Expanded', cursive;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.header .content form .search{
+    width: 40rem;
+    height: 2rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.header .content form i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.header .content a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.header .content a:hover{
     color: orange;
+}
+
+.header .menu{
+    height: 2.7rem;
+    width: 100%;
+    background: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.header .menu .active{
+    color: orange;
+}
+
+.header .menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    list-style: none;
+    padding-top: .6rem;
+    font-size: 1.3rem;
+}
+
+.header .menu ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .menu ul a:hover{
+    color: orange;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/processed-d09fabdb-d07d-41e4-aa5c-55fae850ce65_HQbK34z3.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 21rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.home .card{
+    width: 20%;
+    height: 15rem;
+    line-height: 1.5;
+    padding: 1rem 4%;
+    background: cornflowerblue;
+    margin-top: 2rem;
+    margin-left: 14rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.home .card h1{
+    text-transform: uppercase;
+}
+
+.home .card button{
+    width: 50%;
+    height: 2rem;
+    margin-left: 4.5rem;
+    border-radius: .5rem;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.bar h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Stint Ultra Expanded', cursive;
+}
+
+.bar .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10rem, .5fr));
+    gap: 5rem;
+    margin: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.bar .box-container .box{
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.bar .box-container .box p{
+    background: cornflowerblue;
+    color: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #666;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.footer .contact{
+    text-align: center;
+}
+
+.footer .contact p{
+    line-height: 1.8;
+}
+
+.footer .media ul{
+    list-style: none;
+}
+
+.footer .media ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .4rem;
+}
+
+.footer .media ul a:hover{
+    color: orange;
+}
+
+.footer .infomation{
+    text-align: center;
+}
+
+.footer .infomation form{
+    display: flex;
+}
+
+.footer .infomation form input{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+}
+
+.footer .infomation button{
+    margin-top: 1rem;
+    width: 50%;
+    height: 2rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.end{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .navbar-left{
+    width: 50%;
+    margin-top: 7rem;
+}
+
+.container .navbar-left h1{
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 3rem;
+}
+
+.container .navbar-left p{
+    line-height: 1.8;
+}
+
+.container .navbar-left button{
+    width: 20%;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 13rem;
+    border-radius: .3rem;
+    background: red;
+    color: #fff;
+}
+
+.container .navbar-right{
+    margin-top: 7rem;
+}
+
+.container .navbar-right h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.slide-show{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/slide-show.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 21rem;
+}
+
+.my-container{
+    width: 80%;
+    margin: auto;
+}
+
+.my-container h1{
+    text-align: center;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.my-container .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10rem, .5fr));
+    gap: 5rem;
+    margin: 3rem;
+    margin: auto;
+}
+
+.my-container .card-container .card{
+    text-align: center;
+    background: cornflowerblue;
+    padding: 1rem;
+    border-radius: .3rem;
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.form-container{
+    width: 50%;
+    height: 70vh;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-family: 'Stint Ultra Expanded', cursive;
+    margin: auto;
+    line-height: 1.8;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.form-container h1{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.form-container form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.form-container .form-group{
+    width: 100%;
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container .form-group .form-control{
+    width: 90%;
+    height: 2rem;
+    border-radius: .3rem;
+}
+.form-of-2{
+    width: 43.5%;
+    border-radius: .3rem;
+    margin: .5rem;
+}
+.form-container form input{
+    height: 2rem;
+}
+
+.form-container .form-group textarea{
+    width: 90%;
+    resize: none;
+    border-radius: .3rem;
+}
+
+.form-container form button{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    background: red;
+    margin-left: 16rem;
+    width: 30%;
+    height: 2rem;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1024px){
+    .header .content form .search{
+        width: 70%;
+    }
+
+    .header .content a{
+        display: none;
+    }
+
+    .header .content h1{
+        font-size: 1.5rem;
+    }
+
+    .header .content form .search{
+        width: 100%;
+
+    }
+
+    header .content form i{
+        display: none;
+    }
+
+
+
+    .bar .box-container{
+        display:block;
+    }
+
+    .bar .box-container .box{
+        width: 50%;
+        margin: auto;
+        line-height: 1.8;
+    }
+
+    .home .card{
+        width: 30%;
+        margin-left:.1rem;
+        font-size: .8rem;
+    }
+
+    .home .card button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    footer .footer{
+        display: block;
+        margin: auto;
+    }
+
+    footer .footer .contact{
+        padding-top: 3rem;
+    }
+
+    footer .footer .media{
+        text-align: center;
+    }
+
+    footer .footer .infomation form{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .footer .infomation button{
+        margin-bottom: 2rem;
+    }
+
+    .end{
+        padding: .5rem;
+        font-size: .8rem;
+    }
+
+
 }
