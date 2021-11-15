@@ -374,7 +374,10 @@ html{
         display: none;
     }
 
-
+    .header .menu ul{
+        width: 90%;
+        margin: auto;
+    }
 
     .bar .box-container{
         display:block;
@@ -417,9 +420,14 @@ html{
         justify-content: center;
     }
 
+    footer .footer .infomation form input{
+        height: 3rem;
+    }
+
     footer .footer .infomation button{
         margin-bottom: 2rem;
-        width: 44%;
+        width: 55%;
+        height: 3rem;
     }
 
     .end{
@@ -434,6 +442,17 @@ html{
 
     .container{
         display: block;
+    }
+
+    .form-container form button{
+        margin: auto;
+        height: 3rem;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    .form-container form .form-group ::placeholder{
+        font-size: 1rem;
     }
 
     .container .navbar-left{
@@ -475,6 +494,109 @@ html{
     .form-container{
         width: 80%;
         margin-bottom: 4rem;
+    }
+
+}
+
+@media only screen and (max-width:667px){
+    .header .content form{
+        display: none;
+    }
+
+    .header .content h1{
+        margin: auto;
+    }
+
+    .header .menu ul{
+        display: block;
+        margin-right: 3.5rem;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .header .menu{
+        background: cornflowerblue;
+        height: 33vh;
+    }
+
+    .home .card{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 25rem;
+        line-height: 1.8;
+    }
+
+    .bar{
+        padding-top: 20rem;
+    }
+
+    .bar .box-container{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+
+    .bar .box-container .box{
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+    .footer .infomation form{
+        width: 90%;
+        margin: auto;
+    }
+
+    .container .navbar-left button{
+        width: 50%;
+    }
+
+    .container .navbar-right .map{
+        width: 90%;
+        height: 60vh;
+    }
+
+    .slide-show{
+        height: 30ch;
+    }
+
+    .my-container h1{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .my-container .card-container{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    } 
+
+    .form-container h1{
+        font-size: 1rem;
+    }
+
+    form .name{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    form .name .form-of-2{
+        width: 100%;
+    }
+
+    .form-container{
+        height: 90vh;
+    }
+
+    .form-container .form-group textarea{
+        height: 15vh;
+    }
+
+    .form-container form button{
+       margin: auto;
+       font-size: 1rem;
+       width: 90%;
     }
 
 }
